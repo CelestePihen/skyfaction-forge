@@ -1,0 +1,142 @@
+{
+  "item.skyfaction.nitrite_ingot": "Nitrite Ingot",
+  "item.skyfaction.artrite_ingot": "Artrite Ingot",
+  "item.skyfaction.terralium_ingot": "Terralium Ingot",
+  "item.skyfaction.horium_ingot": "Horium Ingot",
+  "item.skyfaction.kozalium_ingot": "Kozalium Ingot",
+
+  "item.skyfaction.nitrite_fragment": "Nitrite Fragment",
+  "item.skyfaction.artrite_fragment": "Artrite Fragment",
+  "item.skyfaction.terralium_fragment": "Terralium Fragment",
+  "item.skyfaction.horium_fragment": "Horium Fragment",
+  "item.skyfaction.kozalium_fragment": "Kozalium Fragment",
+  "item.skyfaction.xray_fragment": "Xray Fragment",
+
+  "item.skyfaction.nitrite_sword": "Nitrite Sword",
+  "item.skyfaction.nitrite_pickaxe": "Nitrite Pickaxe",
+  "item.skyfaction.nitrite_axe": "Nitrite Axe",
+  "item.skyfaction.nitrite_shovel": "Nitrite Shovel",
+  "item.skyfaction.nitrite_hoe": "Nitrite Hoe",
+
+  "item.skyfaction.artrite_sword": "Artrite Sword",
+  "item.skyfaction.artrite_pickaxe": "Artrite Pickaxe",
+  "item.skyfaction.artrite_axe": "Artrite Axe",
+  "item.skyfaction.artrite_shovel": "Artrite Shovel",
+  "item.skyfaction.artrite_hoe": "Artrite Hoe",
+
+  "item.skyfaction.terralium_sword": "Terralium Sword",
+  "item.skyfaction.terralium_pickaxe": "Terralium Pickaxe",
+  "item.skyfaction.terralium_axe": "Terralium Axe",
+  "item.skyfaction.terralium_shovel": "Terralium Shovel",
+  "item.skyfaction.terralium_hoe": "Terralium Hoe",
+
+  "item.skyfaction.horium_sword": "Horium Sword",
+  "item.skyfaction.horium_pickaxe": "Horium Pickaxe",
+  "item.skyfaction.horium_axe": "Horium Axe",
+  "item.skyfaction.horium_shovel": "Horium Shovel",
+  "item.skyfaction.horium_hoe": "Horium Hoe",
+
+  "item.skyfaction.kozalium_sword": "Kozalium Sword",
+  "item.skyfaction.kozalium_pickaxe": "Kozalium Pickaxe",
+  "item.skyfaction.kozalium_axe": "Kozalium Axe",
+  "item.skyfaction.kozalium_shovel": "Kozalium Shovel",
+  "item.skyfaction.kozalium_hoe": "Kozalium Hoe",
+
+  "item.skyfaction.nitrite_helmet": "Nitrite Helmet",
+  "item.skyfaction.nitrite_chestplate": "Nitrite Chestplate",
+  "item.skyfaction.nitrite_leggings": "Nitrite Leggings",
+  "item.skyfaction.nitrite_boots": "Nitrite Boots",
+
+  "item.skyfaction.artrite_helmet": "Artrite Helmet",
+  "item.skyfaction.artrite_chestplate": "Artrite Chestplate",
+  "item.skyfaction.artrite_leggings": "Artrite Leggings",
+  "item.skyfaction.artrite_boots": "Artrite Boots",
+
+  "item.skyfaction.terralium_helmet": "Terralium Helmet",
+  "item.skyfaction.terralium_chestplate": "Terralium Chestplate",
+  "item.skyfaction.terralium_leggings": "Terralium Leggings",
+  "item.skyfaction.terralium_boots": "Terralium Boots",
+
+  "item.skyfaction.horium_helmet": "Horium Helmet",
+  "item.skyfaction.horium_chestplate": "Horium Chestplate",
+  "item.skyfaction.horium_leggings": "Horium Leggings",
+  "item.skyfaction.horium_boots": "Horium Boots",
+
+  "item.skyfaction.kozalium_helmet": "Kozalium Helmet",
+  "item.skyfaction.kozalium_chestplate": "Kozalium Chestplate",
+  "item.skyfaction.kozalium_leggings": "Kozalium Leggings",
+  "item.skyfaction.kozalium_boots": "Kozalium Boots",
+
+  "item.skyfaction.heal_stick": "Heal Stick",
+  "item.skyfaction.strenght_stick": "Strenght Stick",
+  "item.skyfaction.speed_stick": "Speed Stick",
+  "item.skyfaction.food_stick": "Food Stick",
+
+  "item.skyfaction.nitrite_stick": "Nitrite Stick",
+  "item.skyfaction.artrite_stick": "Artrite Stick",
+  "item.skyfaction.terralium_stick": "Terralium Stick",
+  "item.skyfaction.horium_stick": "Horium Stick",
+  "item.skyfaction.kozalium_stick": "Kozalium Stick",
+
+  "item.skyfaction.nitrite_orb": "Nitrite Orb",
+  "item.skyfaction.artrite_orb": "Artrite Orb",
+  "item.skyfaction.terralium_orb": "Terralium Orb",
+  "item.skyfaction.horium_orb": "Horium Orb",
+  "item.skyfaction.kozalium_orb": "Kozalium Orb",
+
+  "item.skyfaction.xp_berry": "XP Berry",
+  "item.skyfaction.fake_water_bucket": "Fake Water Bucket",
+  "item.skyfaction.detector_eye": "Detector Eye",
+
+  "block.skyfaction.nitrite_block": "Nitrite Block",
+  "block.skyfaction.artrite_block": "Artrite Block",
+  "block.skyfaction.terralium_block": "Terralium Block",
+  "block.skyfaction.horium_block": "Horium Block",
+  "block.skyfaction.kozalium_block": "Kozalium Block",
+
+  "block.skyfaction.nitrite_ore": "Nitrite Ore",
+  "block.skyfaction.artrite_ore": "Artrite Ore",
+  "block.skyfaction.terralium_ore": "Terralium Ore",
+  "block.skyfaction.horium_ore": "Horium Ore",
+  "block.skyfaction.kozalium_ore": "Kozalium Ore",
+  "block.skyfaction.xray_ore": "Xray Ore",
+
+  "block.skyfaction.deepslate_nitrite_ore": "Deepslate Nitrite Ore",
+  "block.skyfaction.deepslate_artrite_ore": "Deepslate Artrite Ore",
+  "block.skyfaction.deepslate_terralium_ore": "Deepslate Terralium Ore",
+  "block.skyfaction.deepslate_horium_ore": "Deepslate Horium Ore",
+  "block.skyfaction.deepslate_kozalium_ore": "Deepslate Kozalium Ore",
+  "block.skyfaction.deepslate_xray_ore": "Deepslate Xray Ore",
+
+  "block.skyfaction.white_colorblock": "White Color Block",
+  "block.skyfaction.orange_colorblock": "Orange Color Block",
+  "block.skyfaction.magenta_colorblock": "Magenta Color Block",
+  "block.skyfaction.light_blue_colorblock": "Light Blue Color Block",
+  "block.skyfaction.yellow_colorblock": "Yellow Color Block",
+  "block.skyfaction.lime_colorblock": "Lime Color Block",
+  "block.skyfaction.pink_colorblock": "Pink Color Block",
+  "block.skyfaction.gray_colorblock": "Gray Color Block",
+  "block.skyfaction.light_gray_colorblock": "Light Gray Color Block",
+  "block.skyfaction.cyan_colorblock": "Cyan Color Block",
+  "block.skyfaction.purple_colorblock": "Purple Color Block",
+  "block.skyfaction.blue_colorblock": "Blue Color Block",
+  "block.skyfaction.brown_colorblock": "Brown Color Block",
+  "block.skyfaction.green_colorblock": "Green Color Block",
+  "block.skyfaction.red_colorblock": "Red Color Block",
+  "block.skyfaction.black_colorblock": "Black Color Block",
+
+  "block.skyfaction.cave_block": "Cave Block",
+  "block.skyfaction.compressed_tnt": "Compressed TNT",
+  "block.skyfaction.renforced_cobblestone": "Renforced Cobblestone",
+
+  "block.skyfaction.obsidian_stairs": "Obsidian Stairs",
+  "block.skyfaction.obsidian_slab": "Obsidian Slab",
+  "block.skyfaction.obsidian_door": "Obsidian Door",
+  "block.skyfaction.obsidian_trapdoor": "Obsidian Trapdoor",
+
+  "block.skyfaction.xp_bush": "XP Bush",
+
+  "fluid_type.skyfaction.fake_water_fluid": "Fake Water",
+
+  "itemGroup.skyfaction": "SkyFaction"
+}

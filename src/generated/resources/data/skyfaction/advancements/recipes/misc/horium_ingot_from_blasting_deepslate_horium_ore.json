@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_horium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyfaction:deepslate_horium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyfaction:horium_ingot_from_blasting_deepslate_horium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_horium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyfaction:horium_ingot_from_blasting_deepslate_horium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

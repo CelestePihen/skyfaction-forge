@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "COC",
+    "CCC"
+  ],
+  "result": {
+    "item": "skyfaction:renforced_cobblestone"
+  },
+  "show_notification": true
+}

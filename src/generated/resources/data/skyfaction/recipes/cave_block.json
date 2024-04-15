@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "skyfaction:detector_eye"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "skyfaction:xray_fragment"
+    }
+  },
+  "pattern": [
+    "GXG",
+    "XEX",
+    "GXG"
+  ],
+  "result": {
+    "item": "skyfaction:cave_block"
+  },
+  "show_notification": true
+}

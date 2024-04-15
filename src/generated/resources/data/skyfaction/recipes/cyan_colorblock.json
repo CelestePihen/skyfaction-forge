@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": {
+      "item": "minecraft:cyan_dye"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DGD",
+    "DDD"
+  ],
+  "result": {
+    "item": "skyfaction:cyan_colorblock"
+  },
+  "show_notification": true
+}

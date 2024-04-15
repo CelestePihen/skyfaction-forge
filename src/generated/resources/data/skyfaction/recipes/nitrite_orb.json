@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "skyfaction:nitrite_block"
+    },
+    "F": {
+      "item": "skyfaction:nitrite_fragment"
+    },
+    "I": {
+      "item": "skyfaction:nitrite_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IBI",
+    "FIF"
+  ],
+  "result": {
+    "item": "skyfaction:nitrite_orb"
+  },
+  "show_notification": true
+}

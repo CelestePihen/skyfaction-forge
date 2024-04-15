@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nitrite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyfaction:nitrite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyfaction:nitrite_ingot_from_smelting_nitrite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nitrite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyfaction:nitrite_ingot_from_smelting_nitrite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

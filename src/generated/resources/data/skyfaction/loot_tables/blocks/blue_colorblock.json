@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyfaction:blue_colorblock"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "skyfaction:blocks/blue_colorblock"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "skyfaction:kozalium_block"
+    },
+    "F": {
+      "item": "skyfaction:kozalium_fragment"
+    },
+    "I": {
+      "item": "skyfaction:kozalium_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IBI",
+    "FIF"
+  ],
+  "result": {
+    "item": "skyfaction:kozalium_orb"
+  },
+  "show_notification": true
+}

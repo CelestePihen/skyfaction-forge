@@ -1,0 +1,12 @@
+{
+  "values": [
+    "skyfaction:nitrite_ore",
+    "skyfaction:deepslate_nitrite_ore",
+    "skyfaction:xray_ore",
+    "skyfaction:deepslate_xray_ore",
+    "skyfaction:obsidian_door",
+    "skyfaction:obsidian_slab",
+    "skyfaction:obsidian_stairs",
+    "skyfaction:obsidian_trapdoor"
+  ]
+}

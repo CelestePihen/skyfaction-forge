@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "skyfaction:terralium_ingot"
+    },
+    "O": {
+      "item": "skyfaction:terralium_orb"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MO",
+    "MS",
+    " S"
+  ],
+  "result": {
+    "item": "skyfaction:terralium_axe"
+  },
+  "show_notification": true
+}

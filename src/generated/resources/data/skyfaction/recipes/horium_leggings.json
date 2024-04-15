@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "skyfaction:horium_ingot"
+    },
+    "O": {
+      "item": "skyfaction:horium_orb"
+    }
+  },
+  "pattern": [
+    "IOI",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "item": "skyfaction:horium_leggings"
+  },
+  "show_notification": true
+}

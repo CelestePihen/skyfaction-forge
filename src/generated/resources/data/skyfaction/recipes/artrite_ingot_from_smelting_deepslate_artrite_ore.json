@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "artrite",
+  "ingredient": {
+    "item": "skyfaction:deepslate_artrite_ore"
+  },
+  "result": "skyfaction:artrite_ingot"
+}

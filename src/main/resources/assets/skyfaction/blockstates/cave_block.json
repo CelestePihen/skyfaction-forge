@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "skyfaction:block/cave_block"
+    }
+  }
+}

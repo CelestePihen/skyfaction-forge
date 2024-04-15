@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "skyfaction:terralium_ingot"
+    },
+    "O": {
+      "item": "skyfaction:terralium_orb"
+    }
+  },
+  "pattern": [
+    "IOI",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "item": "skyfaction:terralium_leggings"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "skyfaction:artrite_block"
+    },
+    "F": {
+      "item": "skyfaction:artrite_fragment"
+    },
+    "I": {
+      "item": "skyfaction:artrite_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IBI",
+    "FIF"
+  ],
+  "result": {
+    "item": "skyfaction:artrite_orb"
+  },
+  "show_notification": true
+}

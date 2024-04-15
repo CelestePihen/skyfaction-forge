@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "skyfaction:kozalium_ingot"
+    }
+  },
+  "pattern": [
+    "M",
+    "M"
+  ],
+  "result": {
+    "count": 2,
+    "item": "skyfaction:kozalium_stick"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "skyfaction:horium_block"
+    },
+    "F": {
+      "item": "skyfaction:horium_fragment"
+    },
+    "I": {
+      "item": "skyfaction:horium_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IBI",
+    "FIF"
+  ],
+  "result": {
+    "item": "skyfaction:horium_orb"
+  },
+  "show_notification": true
+}

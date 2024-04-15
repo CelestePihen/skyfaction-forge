@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:cactus"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "S": {
+      "item": "skyfaction:kozalium_stick"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " L ",
+    "CSC",
+    " W "
+  ],
+  "result": {
+    "item": "skyfaction:fake_water_bucket"
+  },
+  "show_notification": true
+}

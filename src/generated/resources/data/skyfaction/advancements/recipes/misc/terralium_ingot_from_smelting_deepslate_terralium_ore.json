@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_terralium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyfaction:deepslate_terralium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyfaction:terralium_ingot_from_smelting_deepslate_terralium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_terralium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyfaction:terralium_ingot_from_smelting_deepslate_terralium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

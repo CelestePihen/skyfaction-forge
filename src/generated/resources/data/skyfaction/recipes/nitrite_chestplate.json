@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "skyfaction:nitrite_ingot"
+    },
+    "O": {
+      "item": "skyfaction:nitrite_orb"
+    }
+  },
+  "pattern": [
+    "I I",
+    "IOI",
+    "III"
+  ],
+  "result": {
+    "item": "skyfaction:nitrite_chestplate"
+  },
+  "show_notification": true
+}

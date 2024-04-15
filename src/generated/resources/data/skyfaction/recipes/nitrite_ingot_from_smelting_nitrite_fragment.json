@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "nitrite",
+  "ingredient": {
+    "item": "skyfaction:nitrite_fragment"
+  },
+  "result": "skyfaction:nitrite_ingot"
+}

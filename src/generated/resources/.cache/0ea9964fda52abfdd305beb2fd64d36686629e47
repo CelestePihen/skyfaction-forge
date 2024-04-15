@@ -1,0 +1,12 @@
+// 1.20.1	2023-10-12T22:56:20.6932271	Tags for minecraft:block mod id skyfaction
+c8cc3b431a05181deca8429c2193b579673f4bdf data/minecraft/tags/blocks/doors.json
+acde49f6f5afc804966eb32590df9c882979f55b data/minecraft/tags/blocks/mineable/hoe.json
+6222f1ef37b872d249414289b9916ce27cd0bb4b data/minecraft/tags/blocks/mineable/pickaxe.json
+b27bf93bf8f769a8c8cf06578e510b2ebc7356a6 data/minecraft/tags/blocks/needs_diamond_tool.json
+c9fa3cbe15f524b56963fc2dd49806ad7e98f30b data/minecraft/tags/blocks/slabs.json
+00d97f31fad4d0fd63028446307094ccc562de11 data/minecraft/tags/blocks/stairs.json
+ad151435cdaac062f921cba98a4480fce1a3bdd3 data/minecraft/tags/blocks/trapdoors.json
+55fc80cbae7fe18ee491f633750658085c99bd18 data/skyfaction/tags/blocks/needs_artrite_tool.json
+b56bccc71c0132cea81a8e71341ef9692fb0e709 data/skyfaction/tags/blocks/needs_horium_tool.json
+a1279eaac6b5a2bc7d593316a8c3a00df42d1f45 data/skyfaction/tags/blocks/needs_nitrite_tool.json
+7a550438ebe16214a9ec033ea1e1a094b7f1274e data/skyfaction/tags/blocks/needs_terralium_tool.json

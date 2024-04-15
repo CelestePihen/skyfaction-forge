@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "skyfaction:artrite_ingot"
+    },
+    "O": {
+      "item": "skyfaction:artrite_orb"
+    }
+  },
+  "pattern": [
+    "I I",
+    "IOI",
+    "III"
+  ],
+  "result": {
+    "item": "skyfaction:artrite_chestplate"
+  },
+  "show_notification": true
+}

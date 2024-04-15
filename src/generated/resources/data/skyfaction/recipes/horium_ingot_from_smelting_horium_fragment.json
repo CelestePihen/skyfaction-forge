@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "horium",
+  "ingredient": {
+    "item": "skyfaction:horium_fragment"
+  },
+  "result": "skyfaction:horium_ingot"
+}

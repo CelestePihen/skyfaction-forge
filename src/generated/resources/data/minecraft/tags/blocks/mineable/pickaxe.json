@@ -1,0 +1,21 @@
+{
+  "values": [
+    "skyfaction:nitrite_ore",
+    "skyfaction:artrite_ore",
+    "skyfaction:terralium_ore",
+    "skyfaction:horium_ore",
+    "skyfaction:kozalium_ore",
+    "skyfaction:xray_ore",
+    "skyfaction:deepslate_nitrite_ore",
+    "skyfaction:deepslate_artrite_ore",
+    "skyfaction:deepslate_terralium_ore",
+    "skyfaction:deepslate_horium_ore",
+    "skyfaction:deepslate_kozalium_ore",
+    "skyfaction:deepslate_xray_ore",
+    "skyfaction:obsidian_door",
+    "skyfaction:obsidian_slab",
+    "skyfaction:obsidian_stairs",
+    "skyfaction:obsidian_trapdoor",
+    "skyfaction:renforced_cobblestone"
+  ]
+}

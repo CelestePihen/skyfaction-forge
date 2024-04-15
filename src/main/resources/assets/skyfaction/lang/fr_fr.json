@@ -1,0 +1,142 @@
+{
+  "item.skyfaction.nitrite_ingot": "Lingot de nitrite",
+  "item.skyfaction.artrite_ingot": "Lingot d'artrite",
+  "item.skyfaction.terralium_ingot": "Lingot de terralium",
+  "item.skyfaction.horium_ingot": "Lingot d'horium",
+  "item.skyfaction.kozalium_ingot": "Lingot de kozalium",
+
+  "item.skyfaction.nitrite_fragment": "Fragment de nitrite",
+  "item.skyfaction.artrite_fragment": "Fragment d'artrite",
+  "item.skyfaction.terralium_fragment": "Fragment de terralium",
+  "item.skyfaction.horium_fragment": "Fragment d'horium",
+  "item.skyfaction.kozalium_fragment": "Fragment de kozalium",
+  "item.skyfaction.xray_fragment": "Fragment de Xray",
+
+  "item.skyfaction.nitrite_sword": "Épée en nitrite",
+  "item.skyfaction.nitrite_pickaxe": "Pioche en nitrite",
+  "item.skyfaction.nitrite_axe": "Hache en nitrite",
+  "item.skyfaction.nitrite_shovel": "Pelle en nitrite",
+  "item.skyfaction.nitrite_hoe": "Houe en nitrite",
+
+  "item.skyfaction.artrite_sword": "Épée en artrite",
+  "item.skyfaction.artrite_pickaxe": "Pioche en artrite",
+  "item.skyfaction.artrite_axe": "Hache en artrite",
+  "item.skyfaction.artrite_shovel": "Pelle en Artrite",
+  "item.skyfaction.artrite_hoe": "Houe en Artrite",
+
+  "item.skyfaction.terralium_sword": "Épée en terralium",
+  "item.skyfaction.terralium_pickaxe": "Pioche en terralium",
+  "item.skyfaction.terralium_axe": "Hache en terralium",
+  "item.skyfaction.terralium_shovel": "Pelle en terralium",
+  "item.skyfaction.terralium_hoe": "Houe en terralium",
+
+  "item.skyfaction.horium_sword": "Épée en horium",
+  "item.skyfaction.horium_pickaxe": "Pioche en horium",
+  "item.skyfaction.horium_axe": "Hache en horium",
+  "item.skyfaction.horium_shovel": "Pelle en horium",
+  "item.skyfaction.horium_hoe": "Houe en horium",
+
+  "item.skyfaction.kozalium_sword": "Épée en kozalium",
+  "item.skyfaction.kozalium_pickaxe": "Pioche en kozalium",
+  "item.skyfaction.kozalium_axe": "Hache en kozalium",
+  "item.skyfaction.kozalium_shovel": "Pelle en kozalium",
+  "item.skyfaction.kozalium_hoe": "Houe en kozalium",
+
+  "item.skyfaction.nitrite_helmet": "Casque en nitrite",
+  "item.skyfaction.nitrite_chestplate": "Plastron en nitrite",
+  "item.skyfaction.nitrite_leggings": "Jambières en nitrite",
+  "item.skyfaction.nitrite_boots": "Bottes en nitrite",
+
+  "item.skyfaction.artrite_helmet": "Casque en artrite",
+  "item.skyfaction.artrite_chestplate": "Plastron en artrite",
+  "item.skyfaction.artrite_leggings": "Jambières en artrite",
+  "item.skyfaction.artrite_boots": "Bottes en artrite",
+
+  "item.skyfaction.terralium_helmet": "Casque en terralium",
+  "item.skyfaction.terralium_chestplate": "Plastron en terralium",
+  "item.skyfaction.terralium_leggings": "Jambières en terralium",
+  "item.skyfaction.terralium_boots": "Bottes en terralium",
+
+  "item.skyfaction.horium_helmet": "Casque en horium",
+  "item.skyfaction.horium_chestplate": "Plastron en horium",
+  "item.skyfaction.horium_leggings": "Jambières en horium",
+  "item.skyfaction.horium_boots": "Bottes en horium",
+
+  "item.skyfaction.kozalium_helmet": "Casque en kozalium",
+  "item.skyfaction.kozalium_chestplate": "Plastron en kozalium",
+  "item.skyfaction.kozalium_leggings": "Jambières en kozalium",
+  "item.skyfaction.kozalium_boots": "Bottes en kozalium",
+
+  "item.skyfaction.heal_stick": "Bâton de soin",
+  "item.skyfaction.strenght_stick": "Bâton de force",
+  "item.skyfaction.speed_stick": "Bâton de vitesse",
+  "item.skyfaction.food_stick": "Bâton de nourriture",
+
+  "item.skyfaction.nitrite_stick": "Bâton de nitrite",
+  "item.skyfaction.artrite_stick": "Bâton d'artrite",
+  "item.skyfaction.terralium_stick": "Bâton de terralium",
+  "item.skyfaction.horium_stick": "Bâton d'horium",
+  "item.skyfaction.kozalium_stick": "Bâton de kozalium",
+
+  "item.skyfaction.nitrite_orb": "Orbe de nitrite",
+  "item.skyfaction.artrite_orb": "Orbe d'artrite",
+  "item.skyfaction.terralium_orb": "Orbe de terralium",
+  "item.skyfaction.horium_orb": "Orbe d'horium",
+  "item.skyfaction.kozalium_orb": "Orbe de kozalium",
+
+  "item.skyfaction.xp_berry": "Baie d'expérience",
+  "item.skyfaction.fake_water_bucket": "Seau d'eau fausse",
+  "item.skyfaction.detector_eye": "Œil détecteur",
+
+  "block.skyfaction.nitrite_block": "Bloc de nitrite",
+  "block.skyfaction.artrite_block": "Bloc d'artrite",
+  "block.skyfaction.terralium_block": "Bloc de terralium",
+  "block.skyfaction.horium_block": "Bloc d'horium",
+  "block.skyfaction.kozalium_block": "Bloc de kozalium",
+
+  "block.skyfaction.nitrite_ore": "Minerai de nitrite",
+  "block.skyfaction.artrite_ore": "Minerai d'artrite",
+  "block.skyfaction.terralium_ore": "Minerai de terralium",
+  "block.skyfaction.horium_ore": "Minerai d'horium",
+  "block.skyfaction.kozalium_ore": "Minerai de kozalium",
+  "block.skyfaction.xray_ore": "Minerai de Xray",
+
+  "block.skyfaction.deepslate_nitrite_ore": "Minerai de nitrite des abîmes",
+  "block.skyfaction.deepslate_artrite_ore": "Minerai d'artrite des abîmes",
+  "block.skyfaction.deepslate_terralium_ore": "Minerai de terralium des abîmes",
+  "block.skyfaction.deepslate_horium_ore": "Minerai d'horium des abîmes",
+  "block.skyfaction.deepslate_kozalium_ore": "Minerai de kozalium des abîmes",
+  "block.skyfaction.deepslate_xray_ore": "Minerai de Xray des abîmes",
+
+  "block.skyfaction.white_colorblock": "Bloc de couleur blanche",
+  "block.skyfaction.orange_colorblock": "Bloc de couleur orange",
+  "block.skyfaction.magenta_colorblock": "Bloc de couleur magenta",
+  "block.skyfaction.light_blue_colorblock": "Bloc de couleur bleu clair",
+  "block.skyfaction.yellow_colorblock": "Bloc de couleur jaune",
+  "block.skyfaction.lime_colorblock": "Bloc de couleur vert clair",
+  "block.skyfaction.pink_colorblock": "Bloc de couleur rose",
+  "block.skyfaction.gray_colorblock": "Bloc de couleur grise",
+  "block.skyfaction.light_gray_colorblock": "Bloc de couleur gris clair",
+  "block.skyfaction.cyan_colorblock": "Bloc de couleur cyan",
+  "block.skyfaction.purple_colorblock": "Bloc de couleur violette",
+  "block.skyfaction.blue_colorblock": "Bloc de couleur bleue",
+  "block.skyfaction.brown_colorblock": "Bloc de couleur marron",
+  "block.skyfaction.green_colorblock": "Bloc de couleur verte",
+  "block.skyfaction.red_colorblock": "Bloc de couleur rouge",
+  "block.skyfaction.black_colorblock": "Bloc de couleur noire",
+
+  "block.skyfaction.cave_block": "Bloc de cave",
+  "block.skyfaction.compressed_tnt": "TNT compressée",
+  "block.skyfaction.renforced_cobblestone": "Pierres renforcées",
+
+  "block.skyfaction.obsidian_stairs": "Escaliers en obsidienne",
+  "block.skyfaction.obsidian_slab": "Dalle en obsidienne",
+  "block.skyfaction.obsidian_door": "Porte en obsidienne",
+  "block.skyfaction.obsidian_trapdoor": "Trappe en obsidienne",
+
+  "block.skyfaction.xp_bush": "Buisson d'expérience",
+
+  "fluid_type.skyfaction.fake_water_fluid": "Eau fausse",
+
+  "itemGroup.skyfaction": "SkyFaction"
+}

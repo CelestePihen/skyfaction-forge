@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "skyfaction:artrite_ingot"
+    },
+    "O": {
+      "item": "skyfaction:artrite_orb"
+    }
+  },
+  "pattern": [
+    "IOI",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "item": "skyfaction:artrite_leggings"
+  },
+  "show_notification": true
+}

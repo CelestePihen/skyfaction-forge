@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyfaction:horium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "skyfaction:horium_ingot"
+  }
+}

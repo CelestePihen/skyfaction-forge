@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "skyfaction:kozalium_ingot"
+    },
+    "O": {
+      "item": "skyfaction:kozalium_orb"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MO",
+    " S",
+    " S"
+  ],
+  "result": {
+    "item": "skyfaction:kozalium_hoe"
+  },
+  "show_notification": true
+}

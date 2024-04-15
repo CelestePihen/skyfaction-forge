@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "skyfaction:terralium_block"
+    },
+    "F": {
+      "item": "skyfaction:terralium_fragment"
+    },
+    "I": {
+      "item": "skyfaction:terralium_ingot"
+    }
+  },
+  "pattern": [
+    "FIF",
+    "IBI",
+    "FIF"
+  ],
+  "result": {
+    "item": "skyfaction:terralium_orb"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyfaction:terralium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "skyfaction:terralium_ingot"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "skyfaction:artrite_fragment"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "H": {
+      "item": "skyfaction:horium_fragment"
+    },
+    "K": {
+      "item": "skyfaction:kozalium_fragment"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "T": {
+      "item": "skyfaction:terralium_fragment"
+    }
+  },
+  "pattern": [
+    "PHP",
+    "AEK",
+    "PTP"
+  ],
+  "result": {
+    "item": "skyfaction:detector_eye"
+  },
+  "show_notification": true
+}

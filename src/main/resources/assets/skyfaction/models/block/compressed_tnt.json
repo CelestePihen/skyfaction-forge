@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "skyfaction:block/compressed_tnt_bottom",
+    "side": "skyfaction:block/compressed_tnt_side",
+    "top": "skyfaction:block/compressed_tnt_top"
+  }
+}

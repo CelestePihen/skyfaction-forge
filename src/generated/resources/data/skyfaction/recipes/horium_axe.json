@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "skyfaction:horium_ingot"
+    },
+    "O": {
+      "item": "skyfaction:horium_orb"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MO",
+    "MS",
+    " S"
+  ],
+  "result": {
+    "item": "skyfaction:horium_axe"
+  },
+  "show_notification": true
+}

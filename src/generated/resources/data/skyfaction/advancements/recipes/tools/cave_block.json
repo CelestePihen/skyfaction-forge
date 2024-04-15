@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyfaction:cave_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_xray_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyfaction:xray_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_xray_fragment",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyfaction:cave_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
