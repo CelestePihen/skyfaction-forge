@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.event;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.fluid.ModFluidTypes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.event.TickEvent;
@@ -9,7 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = SkyFactionMod.MOD_ID)
+@Mod.EventBusSubscriber(modid = SkyFaction.MOD_ID)
 public class ServerEvents {
 
     @SubscribeEvent

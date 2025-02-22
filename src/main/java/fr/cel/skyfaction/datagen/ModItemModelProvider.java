@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.datagen;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import fr.cel.skyfaction.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -39,7 +39,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, SkyFactionMod.MOD_ID, existingFileHelper);
+        super(output, SkyFaction.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -145,11 +145,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(SkyFactionMod.MOD_ID, "item/" + item.getId().getPath()));
+                new ResourceLocation(SkyFaction.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
-        this.withExistingParent(SkyFactionMod.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+        this.withExistingParent(SkyFaction.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 
@@ -161,18 +161,18 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",
-                new ResourceLocation(SkyFactionMod.MOD_ID, "item/" + item.getId().getPath()));
+                new ResourceLocation(SkyFaction.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(SkyFactionMod.MOD_ID, "item/" + item.getId().getPath()));
+                new ResourceLocation(SkyFaction.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     // Shoutout to El_Redstoniano for making this
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
-        final String MOD_ID = SkyFactionMod.MOD_ID; // Change this to your mod id
+        final String MOD_ID = SkyFaction.MOD_ID; // Change this to your mod id
 
         if(itemRegistryObject.get() instanceof ArmorItem armorItem) {
             trimMaterials.entrySet().forEach(entry -> {

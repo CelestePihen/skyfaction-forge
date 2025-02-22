@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.utils;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -18,13 +18,13 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_KOZALIUM_TOOL = tag("needs_kozalium_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(SkyFactionMod.MOD_ID, name));
+            return BlockTags.create(new ResourceLocation(SkyFaction.MOD_ID, name));
         }
     }
 
     public static class Items {
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation(SkyFactionMod.MOD_ID, name));
+            return ItemTags.create(new ResourceLocation(SkyFaction.MOD_ID, name));
         }
     }
 

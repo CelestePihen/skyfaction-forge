@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.item;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModeTabs {
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SkyFactionMod.MOD_ID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SkyFaction.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> SKYFACTION = CREATIVE_MODE_TABS.register(
             "skyfaction",

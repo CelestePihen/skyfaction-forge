@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.datagen;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import fr.cel.skyfaction.utils.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture;
 public class ModBlockTagGenerator extends BlockTagsProvider {
 
     public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, SkyFactionMod.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, SkyFaction.MOD_ID, existingFileHelper);
     }
 
     @Override

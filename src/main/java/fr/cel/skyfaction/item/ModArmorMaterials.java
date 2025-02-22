@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.item;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
@@ -76,7 +76,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return SkyFactionMod.MOD_ID + ":" + this.name;
+        return SkyFaction.MOD_ID + ":" + this.name;
     }
 
     @Override

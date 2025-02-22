@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.fluid;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import fr.cel.skyfaction.item.ModItems;
 import net.minecraft.world.level.material.FlowingFluid;
@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModFluids {
 
-    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, SkyFactionMod.MOD_ID);
+    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, SkyFaction.MOD_ID);
 
     public static final RegistryObject<FlowingFluid> SOURCE_FAKE_WATER = FLUIDS.register("fake_water_fluid",
             () -> new ForgeFlowingFluid.Source(ModFluids.FAKE_WATER_FLUID_PROPERTIES));

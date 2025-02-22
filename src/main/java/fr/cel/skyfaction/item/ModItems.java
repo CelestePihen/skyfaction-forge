@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.item;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.fluid.ModFluids;
 import fr.cel.skyfaction.item.custom.DynamiteItem;
 import fr.cel.skyfaction.item.custom.EffectStickItem;
@@ -14,7 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SkyFactionMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SkyFaction.MOD_ID);
 
     // Fragments
     public static final RegistryObject<Item> NITRITE_FRAGMENT = ITEMS.register("nitrite_fragment", () -> new Item(new Item.Properties()));

@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.datagen;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import fr.cel.skyfaction.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -376,7 +376,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         for(ItemLike itemlike : pIngredients) {
             SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult,
                     pExperience, pCookingTime, pCookingSerializer).group(pGroup).unlockedBy(getHasName(itemlike),
-                    has(itemlike)).save(pFinishedRecipeConsumer, SkyFactionMod.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
+                    has(itemlike)).save(pFinishedRecipeConsumer, SkyFaction.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
 
     }

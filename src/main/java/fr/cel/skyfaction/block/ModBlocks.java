@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.block;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.custom.XPBerryBlock;
 import fr.cel.skyfaction.fluid.ModFluids;
 import fr.cel.skyfaction.item.ModItems;
@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SkyFactionMod.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SkyFaction.MOD_ID);
 
     /* BLOCKS */
 
@@ -79,40 +79,23 @@ public class ModBlocks {
 
     // Color Block
     public static final RegistryObject<Block> WHITE_COLORBLOCK = registerColorBlock("white");
-
     public static final RegistryObject<Block> ORANGE_COLORBLOCK = registerColorBlock("orange");
-
     public static final RegistryObject<Block> MAGENTA_COLORBLOCK = registerColorBlock("magenta");
-
     public static final RegistryObject<Block> LIGHT_BLUE_COLORBLOCK = registerColorBlock("light_blue");
-
     public static final RegistryObject<Block> YELLOW_COLORBLOCK = registerColorBlock("yellow");
-
     public static final RegistryObject<Block> LIME_COLORBLOCK = registerColorBlock("lime");
-
     public static final RegistryObject<Block> PINK_COLORBLOCK = registerColorBlock("pink");
-
     public static final RegistryObject<Block> GRAY_COLORBLOCK = registerColorBlock("gray");
-
     public static final RegistryObject<Block> LIGHT_GRAY_COLORBLOCK = registerColorBlock("light_gray");
-
     public static final RegistryObject<Block> CYAN_COLORBLOCK = registerColorBlock("cyan");
-
     public static final RegistryObject<Block> PURPLE_COLORBLOCK = registerColorBlock("purple");
-
     public static final RegistryObject<Block> BLUE_COLORBLOCK = registerColorBlock("blue");
-
     public static final RegistryObject<Block> BROWN_COLORBLOCK = registerColorBlock("brown");
-
     public static final RegistryObject<Block> GREEN_COLORBLOCK = registerColorBlock("green");
-
     public static final RegistryObject<Block> RED_COLORBLOCK = registerColorBlock("red");
-
     public static final RegistryObject<Block> BLACK_COLORBLOCK = registerColorBlock("black");
 
-    public static final RegistryObject<Block> CAVE_BLOCK = registerBlock("cave_block",
-            () -> new Block(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).strength(0.3F).sound(SoundType.GLASS).forceSolidOn()));
-
+    // Obsidian
     public static final RegistryObject<Block> OBSIDIAN_STAIRS = registerBlock("obsidian_stairs",
             () -> new StairBlock(Blocks.OBSIDIAN::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
 
@@ -125,16 +108,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> OBSIDIAN_TRAPDOOR = registerBlock("obsidian_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).noOcclusion(), BlockSetType.OAK));
 
+    // Other
+    public static final RegistryObject<Block> CAVE_BLOCK = registerBlock("cave_block",
+            () -> new Block(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).strength(0.3F).sound(SoundType.GLASS).forceSolidOn()));
+
     public static final RegistryObject<Block> COMPRESSED_TNT = registerBlock("compressed_tnt",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.FIRE).instabreak().sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> RENFORCED_COBBLESTONE = registerBlock("renforced_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of().strength(30.0F)));
 
+    public static final RegistryObject<Block> XP_BUSH = registerBlock("xp_bush", XPBerryBlock::new);
+
     public static final RegistryObject<LiquidBlock> FAKE_WATER = registerBlockWithoutBlockItem("fake_water_fluid",
             () -> new LiquidBlock(ModFluids.SOURCE_FAKE_WATER, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
-
-    public static final RegistryObject<Block> XP_BUSH = registerBlock("xp_bush", XPBerryBlock::new);
 
 
     /* FUNCTIONS */

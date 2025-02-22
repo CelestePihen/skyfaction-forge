@@ -14,13 +14,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(SkyFactionMod.MOD_ID)
-public class SkyFactionMod {
+@Mod(SkyFaction.MOD_ID)
+public class SkyFaction {
 
     public static final String MOD_ID = "skyfaction";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public SkyFactionMod() {
+    public SkyFaction() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);

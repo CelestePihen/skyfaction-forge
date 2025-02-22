@@ -1,6 +1,6 @@
 package fr.cel.skyfaction.datagen;
 
-import fr.cel.skyfaction.SkyFactionMod;
+import fr.cel.skyfaction.SkyFaction;
 import fr.cel.skyfaction.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.*;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlockStateProvider extends BlockStateProvider {
 
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, SkyFactionMod.MOD_ID, exFileHelper);
+        super(output, SkyFaction.MOD_ID, exFileHelper);
     }
 
     @Override

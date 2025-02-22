@@ -1,6 +1,5 @@
 package fr.cel.skyfaction.block.custom;
 
-import fr.cel.skyfaction.SkyFactionMod;
 import fr.cel.skyfaction.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -17,7 +16,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -48,10 +46,10 @@ public class XPBerryBlock extends Block {
 
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
-        ItemStack itemStack = new ItemStack(ModItems.XP_BERRY.get());
-        ItemEntity itemEntity = new ItemEntity(pLevel, pPos.getX(), pPos.getY(), pPos.getZ(), itemStack);
-
         if (!pLevel.isClientSide() && pState.getValue(AGE) == 5) {
+            ItemStack itemStack = new ItemStack(ModItems.XP_BERRY.get());
+            ItemEntity itemEntity = new ItemEntity(pLevel, pPos.getX(), pPos.getY(), pPos.getZ(), itemStack);
+
             // TODO pas sûr du flag
             pLevel.setBlock(pPos, pState.setValue(AGE, 0), 3);
 
@@ -63,8 +61,8 @@ public class XPBerryBlock extends Block {
 
     @Override
     public void randomTick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
-        int age = pState.getValue(AGE);
         if (!pLevel.isClientSide()) {
+            int age = pState.getValue(AGE);
             if (age < 5) {
                 pLevel.setBlockAndUpdate(pPos, pState);
                 // TODO pas sûr du flag

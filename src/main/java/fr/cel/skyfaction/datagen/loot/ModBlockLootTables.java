@@ -81,10 +81,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.XP_BUSH.get());
     }
 
-    protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
+    protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item pItem) {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
-                        LootItem.lootTableItem(item)
+                        LootItem.lootTableItem(pItem)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 2.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
